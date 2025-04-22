@@ -45,6 +45,29 @@
             {
                 Console.WriteLine(mot[i]);
             }
+
+            // liste entiers
+            List<int> mesEntiers = new List<int>();
+            mesEntiers.Add(5);
+
+            foreach(int valeur in mesEntiers)
+            {
+                Console.WriteLine(valeur);
+            }
+
+            mesEntiers.Remove(5);
+
+            foreach (int valeur in mesEntiers)
+            {
+                Console.WriteLine(valeur);
+            }
+
+            // tableau à plusieurs
+            // int[3] => [][][]
+            int[,] plateau = new int[5, 5];
+            int[][] mesCotes = new int[5][];
+            mesCotes[0] = new int[6];
+            mesCotes[1] = new int[5];
         }
     }
 }
