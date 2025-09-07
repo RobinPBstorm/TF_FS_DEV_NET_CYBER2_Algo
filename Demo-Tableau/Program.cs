@@ -62,12 +62,49 @@
                 Console.WriteLine(valeur);
             }
 
+
             // tableau à plusieurs
             // int[3] => [][][]
             int[,] plateau = new int[5, 5];
             int[][] mesCotes = new int[5][];
             mesCotes[0] = new int[6];
             mesCotes[1] = new int[5];
+
+            // Bonus: d'autre collection d'objet
+            // FIFO => First IN First OUT
+
+            Console.WriteLine();
+            Console.WriteLine("---La queue---");
+            Console.WriteLine();
+
+            Queue<int> maFileEntier = new Queue<int>();
+            maFileEntier.Enqueue(5);
+            maFileEntier.Enqueue(6);
+            maFileEntier.Enqueue(7);
+
+            Console.WriteLine(maFileEntier.ToArray()[1]);
+
+            // Aperçu du premier élément sans le retirer
+            Console.WriteLine(maFileEntier.Peek());
+
+            // Donne le premier puis le retire
+            Console.WriteLine(maFileEntier.Dequeue());
+            Console.WriteLine(maFileEntier.Dequeue());
+
+
+            Console.WriteLine();
+            Console.WriteLine("---La stack---");
+            Console.WriteLine();
+
+
+            Stack<int> maPileEntier = new Stack<int>();
+            maPileEntier.Push(1);
+            maPileEntier.Push(2);
+            maPileEntier.Push(3);
+
+            Console.WriteLine(maPileEntier.Pop());
+            Console.WriteLine(maPileEntier.Pop());
+            Console.WriteLine(maPileEntier.Pop());
         }
     }
 }

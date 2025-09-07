@@ -143,6 +143,37 @@ namespace Exercice_Tableau
             // Réalisez un algorithme permettant de rechercher une
             // valeur dans un tableau.Si la valeur se trouve bien
             // dans la tableau, nous affichons sa position.
+
+            //int valeurRecherchee, position = -1;
+            //int[] tab1 = new int[5];
+
+            //for (int i = 0; i < tab1.Length; i++)
+            //{
+            //    Console.WriteLine("Entrez une valeur");
+            //    tab1[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //// Proposé à l'utilisateur de donner un valeur à rechercher
+            //Console.WriteLine("Quelle valeur recherchez vous ?");
+            //valeurRecherchee = int.Parse(Console.ReadLine());
+
+            //for(int i = 0; i < tab1.Length && position == -1; i++)
+            //{
+            //    if (tab1[i] == valeurRecherchee)
+            //    {
+            //        position = i;
+            //    }
+            //}
+
+            //if (position != -1)
+            //{
+            //    Console.WriteLine($"On a trouvé {valeurRecherchee} en position {position}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Il n'y a de {valeurRecherchee} dans le tableau");
+            //}
+
             #endregion
 
             #region le plus nombre de 10 valeurs
@@ -150,6 +181,25 @@ namespace Exercice_Tableau
             // 10 entiers et qui affiche le plus petit de ces entiers mais
             // cette fois - ci à l'aide d'un tableau et sans retenir le
             // minimum lors de la saisie.
+
+            //int[] tab1 = new int[10];
+            //int valeurMinimale;
+
+            //for (int i = 0; i < tab1.Length; i++)
+            //{
+            //    Console.WriteLine("Entrez une valeur");
+            //    tab1[i] = int.Parse(Console.ReadLine());
+            //}
+            //valeurMinimale = tab1[0];
+            //for (int i = 1; i < tab1.Length; i++)
+            //{
+            //    if (tab1[i] < valeurMinimale)
+            //    {
+            //        valeurMinimale = tab1[i];
+            //    }
+            //}
+
+            //Console.WriteLine(valeurMinimale);
             #endregion
 
             #region ajout d'un valeur à un tableau trié
@@ -163,7 +213,49 @@ namespace Exercice_Tableau
             #region supprimer une valeur
             // Réalisez un algorithme dans lequel nous devons rechercher
             // une valeur (entrée par l'utilisateur) dans un tableau d'entiers.
-            // Si on trouve cette valeur, nous devons la supprimer du tableau. 
+            // Si on trouve cette valeur, nous devons la supprimer du tableau.
+            // 
+
+            //int valeurRecherchee, position = -1;
+            //int[] tab1 = new int[5];
+
+            //for (int i = 0; i < tab1.Length; i++)
+            //{
+            //    Console.WriteLine("Entrez une valeur");
+            //    tab1[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //// Proposé à l'utilisateur de donner un valeur à rechercher
+            //Console.WriteLine("Quelle valeur recherchez vous ?");
+            //valeurRecherchee = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < tab1.Length && position == -1; i++)
+            //{
+            //    if (tab1[i] == valeurRecherchee)
+            //    {
+            //        position = i;
+            //    }
+            //}
+
+            //if (position != -1)
+            //{
+            //    for(int i = position; i< tab1.Length; i++)
+            //    {
+            //        if (i < tab1.Length - 1)
+            //        {
+            //            tab1[i] = tab1[i + 1];
+            //        }
+            //        else
+            //        {
+            //            tab1[i] = 0;
+            //        }
+            //    }
+            //}
+
+            //for (int i = 0; i < tab1.Length; i++)
+            //{
+            //    Console.Write($"{tab1[i]}  ");
+            //}
             #endregion
         }
     }
